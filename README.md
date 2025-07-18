@@ -1,69 +1,77 @@
-Blinkit Power BI Project
-Overview
-This repository contains a Power BI dashboard project analyzing Blinkit, a rapid delivery platform. The dashboard provides insights into sales, item types, outlet performance, and customer ratings, helping stakeholders make data-driven decisions.
+🚚 Blinkit Data Analysis Dashboard (Power BI)
+📊 Overview
+This project showcases an interactive Power BI Dashboard for Blinkit, one of India’s leading instant delivery platforms. The dashboard visualizes key metrics such as order trends, delivery availability, average costs, ratings, and customer behavior to provide meaningful business insights.
 
-Features
-Interactive Dashboard: Dynamic filters for outlet location, size, and item type.
+📁 Dataset
+The data used in this project includes:
 
-Comprehensive Metrics: Total sales, average sales, item count, and average customer rating.
+Store and Location Information
 
-Data Visualizations:
+Product Categories and Sales
 
-Time-series sales trend and outlet establishment growth.
+Delivery Type and Availability
 
-Fat content sales distribution (Low Fat vs. Regular).
+Customer Ratings and Reviews
 
-Insights on item types, outlet size, and location tier breakdowns.
+Order Volumes and Revenue
 
-Outlet type analysis including grocery and supermarket types.
+Date and Time Dimensions
 
-Comparative Analysis: Metrics such as total sales, number of items, average sales, average rating, and item visibility by outlet type.
-
-Project Structure
-.pbix file: Power BI dashboard file (Blinkit_Dashboard.pbix)
-
-Datasets: Sourced from Blinkit grocery and sales data
-
-README.md: Project documentation and instructions
-
-Getting Started
-Clone the Repository
-
-bash
-git clone https://github.com/hanumanth112/Projects/tree/main?tab=readme-ov-file
-Open the Dashboard
-
-Launch Power BI Desktop.
-
-Open Blinkit_Dashboard.pbix from the cloned directory.
-
-Explore the Dashboard
-
-Use the left-side filters to select and analyze data by outlet location, size, and item types.
-
-Explore sales trends, customer ratings, and item distributions.
-
-Insights Provided
-Sales Trends (2012–2022): Visualize annual sales growth.
-
-Outlet Segmentation: Evaluate performance by size (Medium, Small, High) and location tier (Tier 1–3).
-
-Item Analysis: Identify top-selling items and fat content contributions.
-
-Outlet Performance: Benchmark sales, ratings, and item visibility across outlet types.
-
-Technologies Used
+🔧 Tools & Techniques Used
 Power BI Desktop
 
-DAX for custom measures
+Data Modeling with Relationships
 
-Data modeling and transformation tools within Power BI
+Power Query Editor for Cleaning and Transformation
 
-Preview
-![Blinkit Power BI Dashboard How to Use
+DAX (Data Analysis Expressions)
 
-Interact with filters to customize data views.
+Calendar Table for Time Intelligence
 
-Hover over charts and visuals for tooltips and deeper insights.
+Interactive Visuals: Slicers, Cards, Bar/Line/Map Charts
 
-Review summary cards and bar charts for key metrics.
+📌 Key Features of the Dashboard
+🚛 % of Orders with Delivery Option
+
+🛒 Top Categories by Sales
+
+🏬 Store-wise and City-wise Performance
+
+💰 Total Revenue, Average Order Value, and Order Count
+
+⭐ Top Rated Products / Stores
+
+📆 Dynamic Date Filtering (Year, Month, Day)
+
+📉 Trend Analysis using Line Charts and KPIs
+
+🧠 Business Insights
+The majority of high-rated stores also offer fast delivery.
+
+Certain cities show higher average order values and frequency.
+
+Peak order times can be observed based on date and time dimensions.
+
+Popular categories like Groceries and Beverages drive most revenue.
+
+📷 Dashboard Preview
+<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/08bbde12-e3fb-43f7-aabc-303fbdf94861" />
+
+
+📥 How to Use
+Download the .pbix file from this repo.
+
+Open it in Power BI Desktop.
+
+Explore the dashboard using filters, slicers, and visuals.
+
+💡 Skills Demonstrated
+Data Cleaning & Transformation (Power Query)
+
+DAX for custom KPIs
+
+Time Intelligence using Date Hierarchies
+
+Business Dashboard Design
+
+Interactive Reporting & Storytelling
