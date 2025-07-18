@@ -30,7 +30,7 @@ Getting Started
 Clone the Repository
 
 bash
-git clone https://github.com/your-username/blinkit-powerbi-dashboard.git
+git clone https://github.com/hanumanth112/Projects/tree/main?tab=readme-ov-file
 Open the Dashboard
 
 Launch Power BI Desktop.
